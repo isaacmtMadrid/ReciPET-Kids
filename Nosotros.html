@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Sobre Nosotros - ReciPET Kids</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <style>
+        :root {
+            --recipet-green: #28a745;
+            --recipet-accent: #d4ff00;
+        }
+
+        body {
+            background-color: #fdfdf5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* Barra de Navegación (Igual al Index) */
+        .navbar {
+            background-color: #fff;
+            padding: 20px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo-text {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #1d1d1d;
+            text-decoration: none;
+        }
+
+        .btn-agendar {
+            background-color: var(--recipet-accent);
+            color: #000;
+            font-weight: bold;
+            border-radius: 12px;
+            padding: 10px 25px;
+            border: 1px solid #c0e600;
+            text-decoration: none;
+        }
+
+        .nav-link-custom {
+            text-decoration: none;
+            color: #1d1d1d;
+            font-weight: 500;
+        }
+
+        /* Contenido */
+        .highlight {
+            background-color: var(--recipet-accent);
+            padding: 0 8px;
+            border-radius: 8px;
+        }
+
+        .team-card {
+            background: #fff;
+            border-radius: 25px;
+            padding: 30px;
+            border: none;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar mb-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="../index.html" class="logo-text d-flex align-items-center">
+                <img src="../img/logo.png" alt="" style="height: 45px; margin-right: 10px;"> 
+                ReciPET<span class="text-success">KIDS</span>
+            </a>
+            
+            <div class="d-none d-md-flex align-items-center gap-4">
+                <a href="Nosotros.html" class="nav-link-custom text-success">Sobre Nosotros</a>
+                <a href="Login.html" class="btn btn-agendar">INICIAR SESIÓN</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container pb-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-lg-6">
+                <h1 class="display-4 fw-bold mb-4">Innovación para la <span class="highlight">primera infancia</span></h1>
+                <p class="lead text-muted">
+                    ReciPET Kids surge para digitalizar el reciclaje en preescolares de León, Gto. 
+                    Fomentamos el aprendizaje lúdico mediante el registro digital de residuos valorizables como el PET.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-card">
+                    <h5 class="fw-bold text-success mb-4">Integrantes del Proyecto</h5>
+                    <ul class="list-unstyled d-grid gap-2">
+                        <li><i class="bi bi-person-check-fill text-success me-2"></i> Badillo Barroso Guillermo</li>
+                        <li><i class="bi bi-person-check-fill text-success me-2"></i> Balderas Macias Regina Michelle</li>
+                        <li><i class="bi bi-person-check-fill text-success me-2"></i> Filorio Martínez Jaasiel</li>
+                        <li><i class="bi bi-person-check-fill text-success me-2"></i> Martínez Torres Enrique Isaac</li>
+                        <li><i class="bi bi-person-check-fill text-success me-2"></i> Portillo Cervantes Ximena Sarahi</li>
+                    </ul>
+                    <hr>
+                    <p class="small text-muted m-0">Mtro. Cristian Estrada | Abril 2026</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="team-card h-100">
+                    <h4 class="fw-bold">Nuestra Propuesta</h4>
+                    <p class="text-muted">
+                        Diseñar una solución tecnológica que permita centralizar la información y realizar el registro digital del pesaje de residuos PET.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-card h-100">
+                    <h4 class="fw-bold">Línea Cero</h4>
+                    <p class="text-muted">
+                        Apoyamos la gestión integral para reducir errores en registros manuales y mejorar la participación escolar en actividades de reciclaje.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container text-center mt-5 py-4 text-muted border-top">
+        <p>© 2026 ReciPET Kids - Proyecto Integrador</p>
+    </div>
+
+    <script src="../style/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
